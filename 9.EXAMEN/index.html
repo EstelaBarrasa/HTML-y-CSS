@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="Autor" content="Estela">
+	<meta name="email" content="mecagoenelformulario@gmail.com">
+
+	<title> Estela </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="completa">
+	<header>
+         <div id="contenedorlogotexto">
+            <div align="center" id="logo">
+               <img src="img/logo.png" width="50%" height="70%">
+            </div>
+            <div class="titulo_logo">
+            <h2>IceWeasel, navegador totalmente libre basado en Mozilla Firefox</h2>
+            </div>
+         </div>
+      <div class="limpia"></div>
+      </header>
+</div>
+
+<div id="contenido">
+      
+
+		<aside> 
+		<h2>Ultimas noticias</h2>
+		<p>Nueva version de Debian 8.1</p>
+		<p>Opera añade nuevos elementos HTML5 y CSS</p>
+		</aside><br>
+
+      <section ><br>
+      <center>
+         <img src="img/logo.png" width="200px" height="200px">
+         <h3>El navegador libre</h3>
+		</center>
+
+<form name="form1" method="post" action="" autocomplete="off">
+  <table id="tabla">
+  <th>Introduce tus datos</th>
+
+    <tr>
+      <td>*Nombre:</td>
+      <td ><label for="nombre_usuario"></label>
+      <input type="text" name="nombre_usuario" id="nombre_usuario" required></td>
+    </tr>
+    <tr>
+      <td>*Apellidos:</td>
+      <td><label for="apellidos"></label>
+      <input type="text" name="apellidos" id="apellidos" required></td>
+    </tr>
+    <tr>
+      <td>*email:</td>
+      <td><label for="email"></label>
+      <input type="email" name="email" id="email" multiple required></td>
+    </tr>
+    <tr>
+      <td>*Teléfono</td>
+      <td><label for="telefono"></label>
+      <input name="telefono" type="number" id="edad"></td>
+    </tr>
+    <tr>
+    	<td>¿Qué otro navegadores utilizas?</td>
+    	<td> <select name="navegadores" size="3" multiple id="navegadores">
+      <option value="Ch" selected>Chrome</option>
+      <option value="Mz">Mozilla</option>
+      <option value="IE">Internet Explorer</option>
+      <option value="Op">Ópera</option>
+      <option value="Sa">Safari</option>
+    </select>
+</td>
+    </tr>
+    <tr>
+      <td>Sugerencias </td>
+       <td><label for="sugerencias"></label><textarea name="sugerencias" required id="sugerencias" placeholder="Escribe tus suguerencias"></textarea></td> 
+       
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
+    </tr>
+  </table>
+
+</div>
+	
+</div>
+</form>
+</body>
+</html>
