@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+	<title>FORMULARIO</title>
+</head>
+<body>
+<!--action es la accion que va a realizar el formulario, method es el metodo http por el que se va a procesar el formulario(GET no esconde y POST si), accept-charset es la codificacion de los caracteres y taget es como los enlaces van a abrirse si en la misma pagina (_self) o en otra pagina (_blank) -->
+<form action="#" method="get" accept-charset="utf-8" target="_blank">
+	<!--en el type vamos a poner que tipo de dato vamos a recoger y en el name vamos a asociar el valor introducido con el nombre que pongamos-->
+	<!--placeholder le da una pequeña ayuda a los usuarios sobre los datos a introducir-->
+	Nombre: <input type="text" name="nombre" placeholder="Cervantes"><br> <!--br es salto de linea-->
+	<!-- disabled es desabilitar la casilla-->
+	Edad: <input type="number" name="edad" disabled=""><br>
+	Contraseña: <input type="password" name="Contraseña"><br>
+	<div>
+		Selecciona una opcion
+	</div>
+	<div>
+		<input type="radio" name="género" value="Hombre"> Hombre
+	</div>
+	<div>
+		<input type="radio" name="género" value="Mujer" > Mujer
+	</div>
+	<div>
+		Colores Favoritos
+	</div>
+	<div>
+		<input type="checkbox" name="colores" value="Rojo">Rojo
+	</div>
+	<div>
+		<input type="checkbox" name="colores" value="Amarillo">Amarillo
+	</div>
+	<div>
+		<input type="checkbox" name="colores" value="Azul">Azul
+	</div>
+	<div>
+		<textarea name="Comentarios" rows="10" cols="20" placeholder="Escribe aqui"></textarea>
+	</div>
+	<div>
+		<select name="moneda">
+			<option value="euros">Euro</option>
+			<option value="Won">Won</option>
+			<option value="Yen">Yen</option>
+			<option value="libra">Libra</option>
+		</select>
+	</div><br>
+<input type="reset" name="reset" value="Resetear el formulario"><br>
+<br>
+<input type="submit" name="enviar" value="Enviar">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>TOY STORY 2</title>
+	
+	<link href='IMG/favicom.PNG' rel='icon' type='image/png' size="16x16">
+
+	<style type="text/css">
+         
+      body,html{
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+      }
+      #completa{
+         width: 100%;
+         height: 100%;
+         background-color:white;
+      }
+
+      header{
+         width: 99,99%;
+         border: 5px solid black;
+         height: 158px;
+         width:100%;
+         font-family:cursive;
+         background-color: black
+      }
+      #contenedorlogotexto{
+         width: 100%;
+         height: 120px;
+         background-color: white; 
+      }
+
+      #logo{
+         width: 20%;
+         background-color:White;
+         float: left;
+         height: 100%;
+        
+      }
+      .titulo_logo{
+         width: 80%;
+         float: right;
+         height: 100%;
+         font-family:cursive;
+         background-image: url("img/portada.png");
+         background-size: 70% 100%;
+         background-repeat:no-repeat;
+         background-position: center;
+      }
+      .limpia{
+         clear: both;
+      }
+
+/*----------menu desplegable-------------*/
+
+         * {
+            margin:0px;
+            padding:0px;
+          }
+         
+         ul, ol {
+            list-style:none;
+         }
+         
+         .nav > li {
+            float:left;
+         }
+         
+         .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+         }
+         
+         .nav li a:hover {
+            background-color:#434343;
+         }
+         
+         .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+         }
+         
+         .nav li:hover > ul {
+            display:block;
+         }
+         
+         .nav li ul li {
+            position:relative;
+         }
+         
+         .nav li ul li ul {
+            right:-140px;
+            top:0px;
+         }
+/*----------------------------------------------------*/
+
+         /*capa lateral derecha*/
+         section{
+         width: 70%;
+         height:100%;
+         float: left;
+         background-color:white;
+         }
+
+         /*capa lateral izquierda*/
+         aside{
+         width: 26%;
+         float: left;
+         height: 100%;
+         background-color: white
+         }
+         footer{
+          color: red
+         }
+      
+   #contenido{
+         width: 100%;
+         height: 75%;
+         display: block;
+      }
+
+      </style>
+</head>
+<body>
+<div id="completa">
+
+      <header>
+         <div id="contenedorlogotexto">
+            <div align="center" id="logo">
+               <img src="img/logo.png" width="100%" height="100%">
+            </div>
+            <div class="titulo_logo">
+            </div>
+         </div>
+      <div class="limpia"></div>
+<!-- -menu desplegable -->
+         <ul class="nav">
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="">Peliculas</a>
+               <ul>
+                  <li><a href="TS1.html">Toy Story 1</a></li>
+                  <li><a href="TS2.html">Toy Story 2</a></li>
+                  <li><a href="TS3.html">Toy Story 3</a></li>
+                  <li><a href="HAP.html">Historias a parte</a>
+                     <ul>
+                        <li><a href="CORTOS.html">Cortos</a></li>
+                        <li><a href="SERIES.html">Serie</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="PERSONAJES.html">Personajes</a></li>
+            <li><a href="OTROS.html">Otros</a></li>
+         </ul>
+   </header>
+<!--  -->
+
+<div id="contenido">
+      
+      <aside> <img src="img/burro.gif" height="40%" width="100%">
+      </aside>
+
+      <section ><br>
+         <center>
+         <article>Cuando Andy se va de campamento dejando solos a los juguetes, Al McWhiggin, un compulsivo coleccionista de juguetes valiosos, secuestra a Woody. Buzz Lightyear y los demás juguetes tendrán que actuar con rapidez si quieren rescatarlo. Durante la operación de rescate no sólo tendrán que afrontar múltiples peligros, sino que también vivirán divertidas situaciones.
+         </article>
+         <br>
+         <br>
+         <video width="400" controls>
+            <source src="ts2.mp4" type="video/mp4">
+            <source src="tg2.ogg" type="video/ogg">
+         </video>
+         </center>
+
+   
+      </section><br>
+
+   </div>
+
+<br>
+
+<!--Pie de página-->
+   <footer>
+      <nav class="inferior">Bibliografia : Wikipedia</nav>
+   </footer>
+   </div>
+</div>
+</body>
+</html>

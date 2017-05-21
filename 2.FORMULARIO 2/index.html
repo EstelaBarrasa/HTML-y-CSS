@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Acceso a la Web</title>
+</head>
+<body>
+<font color="blue">
+<h1>Acceso a la Web</h1>
+</font>
+<form action="http://127.0.0.1/login_usuario" method="post" accept-charset="utf-8">
+	Nombre de usuario : <input type="text" name="login_usuario"><br>
+	Contraseña : <input type="password" name="Contraseña"><br>
+<br>
+	<input type="submit" name="enviar" value="Acceder"><br>
+	<br>
+
+	Si no estas registrado, ¡Registrate ya!<br>
+	<br>
+
+	Nombre: <input type="text" name="nombre" placeholder="Cervantes"><br>
+	Edad: <input type="number" name="edad"><br>
+	<br>
+	Contraseña: <input type="password" name="Contraseña"><br>
+	Repite la contraseña: <input type="password" name="Contraseña"><br>
+	<br>
+	Elige tu nombre de Usuario: <input type="text" name="login_usuario"><br>
+	<br>
+	<div>
+		Selecciona una opcion
+	</div>
+	<div>
+		<input type="radio" name="género" value="Hombre"> Hombre
+	</div>
+	<div>
+		<input type="radio" name="género" value="Mujer" > Mujer
+	</div><br>
+	<div>
+		<select name="Continente">
+			<option value="europa">Europa</option>
+			<option value="Asia">Asia</option>
+			<option value="America">America</option>
+			<option value="Africa">Africa</option>
+			<option value="Oceania">Oceania</option>
+		</select>
+	</div><br>
+
+	<input type="reset" name="reset" value="Resetear el formulario"><br>
+	<br>
+	<input type="submit" name="enviar" value="Registrarme"><br>
+	<br>
+
+</form>
+</body>
+</html>
